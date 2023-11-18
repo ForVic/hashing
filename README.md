@@ -16,5 +16,4 @@ Until recently I was unaware that there were two different implementations of ha
 - Often implemented with LinkedLists, Vectors, and Trees.
 - No maximum load factor (aka a ton of hash collisions makes it worse and worse forever).
 - Since we have to use a linked list here, likely we are doing some sort of dynamic heap allocation that removes some of the data locality benefits of using an underlying array as the storage method.
-- 
 
